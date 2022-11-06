@@ -1,4 +1,7 @@
-# Bit vector for C++
+<p align="center">
+  <img alt="bector" src="logo.png">
+</p>
+<h1 align="center">Bit vector for C++</h1>
 
 ---
 
