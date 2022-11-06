@@ -216,27 +216,27 @@
    1) Flips all bits.
    2) Flips the bit at position `pos`.
    3) Flips the bits [start, end).
-7. #### Perform binary AND
+7. #### Perform bitwise AND
    ```c++
    bector &operator&=(const bector &rhs) noexcept;
    ```
    Sets the bits to the result of binary AND on corresponding pairs of bits of `*this` and `rhs`.
-8. #### Perform binary OR
+8. #### Perform bitwise OR
    ```c++
    bector &operator|=(const bector &rhs) noexcept;
    ```
    Sets the bits to the result of binary OR on corresponding pairs of bits of `*this` and `rhs`.
-9. #### Perform binary XOR
+9. #### Perform bitwise XOR
    ```c++
    bector &operator^=(const bector &rhs) noexcept;
    ```
    Sets the bits to the result of binary XOR on corresponding pairs of bits of `*this` and `rhs`.
-10. #### Perform binary shift left
+10. #### Perform bitwise shift left
     ```c++
     bector &operator<<=(size_type shift) noexcept;
     ```
     Shifts all bits `shift` positions left.
-10. #### Perform binary shift right
+10. #### Perform bitwise shift right
     ```c++
     bector &operator>>=(size_type shift) noexcept;
     ```
@@ -252,7 +252,7 @@
 
 ### Unary operators
 
-1. #### Binary NOT
+1. #### Bitwise NOT
    ```c++
    bector operator~() const noexcept;
    ```
@@ -260,27 +260,27 @@
 
 ### Binary operators
 
-1. #### Binary AND
+1. #### Bitwise AND
    ```c++
    bector operator&(const bector &rhs) const noexcept;
    ```
    Returns a bector containing the result of binary AND on corresponding pairs of bits of lhs and rhs.
-2. #### Binary OR
+2. #### Bitwise OR
    ```c++
    bector operator|(const bector &rhs) const noexcept;
    ```
    Returns a bector containing the result of binary OR on corresponding pairs of bits of lhs and rhs.
-3. #### Binary XOR
+3. #### Bitwise XOR
    ```c++
    bector operator^(const bector &rhs) const noexcept;
    ```
    Returns a bector containing the result of binary XOR on corresponding pairs of bits of lhs and rhs.
-4. #### Binary shift left
+4. #### Bitwise shift left
    ```c++
    bector operator<<(size_type shift) const noexcept;
    ```
    Returns a temporary copy of `*this` with all bits shifted `shift` positions left.
-5. #### Binary shift right
+5. #### Bitwise shift right
    ```c++
    bector operator>>(size_type shift) const noexcept;
    ```
