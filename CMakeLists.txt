@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
 project(bector
+        VERSION 0.1.0
         DESCRIPTION "Bit vector for C++")
 
 set(CMAKE_CXX_STANDARD 14)

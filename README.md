@@ -5,6 +5,7 @@
 
 ---
 
+[![Release version][release-shield]][release-link]
 [![License][license-shield]][license-link]
 
 ## Contents
@@ -28,6 +29,7 @@
    ```c++
    #include "path/to/bector/bector.hpp"
    ```
+   Also, you can use precompiled [`bector.dll`][dll-link] for Windows or [`libbector.so`][so-link] for Linux.
 2. Create objects of the `bector` class and do what you got to do!
    ```c++
    bector bect("11001010");
@@ -299,5 +301,10 @@
 
 This project is licensed under the terms of the [MIT license][license-link].
 
+
+[release-shield]: https://img.shields.io/github/release/H1K0/bector/all.svg?style=for-the-badge
+[release-link]: https://github.com/H1K0/bector/releases
 [license-shield]: https://img.shields.io/github/license/H1K0/bector.svg?style=for-the-badge
 [license-link]: https://github.com/H1K0/bector/blob/master/LICENSE
+[dll-link]: https://github.com/H1K0/bector/releases/download/v0.1.0-dev/bector.dll
+[so-link]: https://github.com/H1K0/bector/releases/download/v0.1.0-dev/libbector.so
